@@ -11,7 +11,7 @@
 
   <link rel="stylesheet" type="text/css" href="assets\css\materialize.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link rel="stylesheet" href="assets\css\styles.css">
+  <link rel="stylesheet" href="assets\css\styles.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
@@ -23,31 +23,134 @@
   </header>
 
   <main>
+
+
+
+
     <!--  Parallax Section  -->
     <div class="parallax-container">
+
+      <!--Header title bar-->
+
+
+
+      <div class="container valign-wrapper">
+        <div style="padding-top: 20px">
+          <img class="responsive-img circle" src="assets/images/logo.png" width="50" height="50">
+        </div>
+        <div style="color: ghostwhite; padding-left: 5px; padding-top: 15px; font-variant:unset ">
+          <p>
+            Xiexe
+            <br />
+            Techarist
+          </p>
+
+        </div>
+      </div>
+
+
       <div class="parallax">
         <img src="assets\images\foxden2.png" alt="Unsplashed background img 1">
       </div>
     </div>
-      <div class="section white">
-        <div class="row container">
-          <div class="col s12 m10 offset-m1">
-            <h2 class="header">Under Construction</h2>
-            <p class="grey-text text-darken-3 lighten-3">Check back later.</p>
+    <div class="section white z-depth-5">
 
+      <div style="text-align: center;">
+        <h1 class="header">Portfolio</h1>
+      </div>
+
+
+
+      <!--  portfolio -->
+      <div class="row">
+        <div class="container valign-wrapper">
+
+          <div class="col s12 m8">
+            <div class="card medium hoverable">
+              <div class="card-image">
+                <img src="assets/images/xstoonthumb1.png">
+                <span class="card-title">XSToon</span>
+              </div>
+              <div class="card-content">
+                <p> This is my longest running project. It's a PBR based Custom lighting shader, capable of many
+                  lighting styles. </p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/Xiexe/Xiexes-Unity-Shaders">Github</a>
+              </div>
+
+
+            </div>
           </div>
+          <!---->
+          <div class="col s12 m8">
+            <div class="card medium hoverable">
+              <div class="card-image video-container">
+                <iframe src='https://gfycat.com/ifr/FriendlyFelineEyra'></iframe>
+                <span class="card-title">RGB Display</span>
+              </div>
+              <div class="card-content">
+                <p> A screen shader that renders screens in a 'realistic' manner. Rendering each subpixel as it's own
+                  entitiy, lit up by it's respective color channel. </p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/Xiexe/RGBSubPixelDisplay-Shader">Github</a>
+              </div>
+            </div>
+          </div>
+          <!---->
+          <div class="col s12 m8">
+            <div class="card medium hoverable">
+              <div class="card-image">
+                <img src="assets/images/foxden1.png">
+                <span class="card-title">PBR ++</span>
+              </div>
+              <div class="card-content">
+                <p> A realistic lighting model aimed to fight issues seen in VR. This
+                  includes Dithering, Geometric Specular Anti-Aliasing, and Specular Lightmap Occlusion. </p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/Xiexe/PBR_Standard_Dithered_GSAA_SLO">Github</a>
+              </div>
+            </div>
+          </div>
+          <!---->
+
+
         </div>
       </div>
-      <div class="parallax-container">
-        <div class="parallax">
-          <img src="assets\images\foxden1.png" alt="Unsplashed background img 1">
-        </div>
+    </div>
+
+    <!-- end white container -->
+    </div>
+
+    <!--  Floating Action Button 
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons">dehaze</i>
+      </a>
+      <ul>
+        <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+        <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+        <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+        <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+      </ul>
+      -->
+    </div>
 
 
-        <!-- compiled and min javascript -->
-        <script type="text/javascript" src="assets\js\jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="assets\js\materialize.min.js"></script>
-        <script src="assets\js\init.js"></script>
+
+    <!-- bottom parallax 
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="assets\images\foxden1.png" alt="Unsplashed background img 1">
+        </div> -->
+
+
+    <!-- compiled and min javascript -->
+    <script type="text/javascript" src="assets\js\jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets\js\materialize.min.js"></script>
+    <script src="assets\js\init.js"></script>
 </body>
 
 </html>
