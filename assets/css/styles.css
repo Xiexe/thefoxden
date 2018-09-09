@@ -1,3 +1,4 @@
+
 body {
   background: #333333;
 }
@@ -6,3 +7,85 @@ body {
   font-family: "Roboto-Light";
   src: url("\assets\fonts\roboto\Roboto-Light.woff");
 }
+
+video{
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+
+
+}
+.videoContainer
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+
+    width: auto;
+    height: auto;
+    min-height: 100%;
+    overflow: hidden;
+
+    z-index: -1;
+}
+
+.cardContainer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+
+  overflow: hidden;
+  z-index: 2;
+}
+.menubox{
+  position: absolute;
+  top: 60%;
+  left: -50px;
+  width:300px;
+	height:40px;
+	margin:10px;
+  padding:10px;
+  background:white;
+  border-radius: 10px;
+}
+
+.menuSelectText{
+  position: relative;
+  transform: translate(100px,-60px);
+}
+
+.parallax{
+  background: url('assets/video/foxdenLoop.mp4') no-repeat center;
+  background-size: cover;
+  background-position: center;
+  padding: 10em 0;
+  color: #fff;
+  background-attachment: fixed;
+}
+.menubg{
+  float: left;
+  width: 200px;
+  background:  rgba(33,33,33,0.5);
+}
+.overlay {
+  position: relative;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
