@@ -9,48 +9,32 @@ body {
 }
 
 video{
-  position: absolute;
 
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+
+
+}
+.videoContainer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
   overflow: hidden;
-
-
-}
-.videoContainer
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-
-    width: auto;
-    height: auto;
-    min-height: 100%;
-    overflow: hidden;
-
-    z-index: -1;
 }
 
-.cardContainer{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: auto;
-  height: auto;
-  min-width: 100%;
-  min-height: 100%;
-
-  overflow: hidden;
-  z-index: 2;
-}
 .menubox{
   position: absolute;
   top: 60%;
