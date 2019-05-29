@@ -1,11 +1,11 @@
 
 body {
-  background: #333333;
+  background: #31303a;
 }
 
 @font-face {
-  font-family: "Roboto-Light";
-  src: url("\assets\fonts\roboto\Roboto-Light.woff");
+  font-family: "AlteHaas";
+  src: url("../fonts/AtleHaas/AlteHaasGroteskRegular.ttf");
 }
 
 video{
@@ -23,6 +23,36 @@ video{
 
 }
 .videoContainer{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 120%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.mainbox{
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  width:70%;
+	height:800px;
+	margin:10px;
+  padding:10px;
+  background:white;
+  border-radius: 8px;
+}
+
+
+.menuSelectText{
+  position: relative;
+  transform: translate(100px,-60px);
+}
+
+.menubg{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -32,38 +62,9 @@ video{
   min-height: 100%;
   width: auto;
   height: auto;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 90%, #31303a);
   overflow: hidden;
-}
-
-.menubox{
-  position: absolute;
-  top: 60%;
-  left: -50px;
-  width:300px;
-	height:40px;
-	margin:10px;
-  padding:10px;
-  background:white;
-  border-radius: 10px;
-}
-
-.menuSelectText{
-  position: relative;
-  transform: translate(100px,-60px);
-}
-
-.parallax{
-  background: url('assets/video/foxdenLoop.mp4') no-repeat center;
-  background-size: cover;
-  background-position: center;
-  padding: 10em 0;
-  color: #fff;
-  background-attachment: fixed;
-}
-.menubg{
-  float: left;
-  width: 200px;
-  background:  rgba(33,33,33,0.5);
+  
 }
 .overlay {
   position: relative;
@@ -73,3 +74,47 @@ video{
   z-index: 1;
 }
 
+
+.unselectable{
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+
+.btn-vertical{
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  display: block;
+
+}
+
+.menutext{
+  position: absolute;
+  color: white;
+  left: 40px;
+  top: -10px;
+  font-family: "AlteHaas";
+  transform: scale(2);
+}
+
+.navbutton{
+  position: relative;
+  left: 0px;
+  width:150px;
+	height:30px;
+	margin:0px;
+  padding:0px;
+  font-family: "AlteHaas";
+  color: white;
+  transform: translate(0,0);
+  transition: .3s;
+  z-index: 2;
+}
+
+.navbutton:hover{
+  left: 60px;
+}
