@@ -1,7 +1,5 @@
 Tierson
 Lolbit
-nanoade
-CrusaderArts
 anima
 Q
 Syaro
@@ -32,3 +30,4 @@ Hakanai
 Balion
 WinterZ
 Morioh
+Celeste
