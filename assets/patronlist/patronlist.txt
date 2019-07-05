@@ -19,6 +19,7 @@ Wvyshe
 VRC Ruby Rose
 Valkeir
 A.
+Celeste
 Aev
 Kuruu
 TheGoo
@@ -31,4 +32,3 @@ Hakanai
 Balion
 WinterZ
 Morioh
-Celeste
