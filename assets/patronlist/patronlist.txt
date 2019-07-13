@@ -31,3 +31,4 @@ Hakanai
 Balion
 WinterZ
 Morioh
+arcane
