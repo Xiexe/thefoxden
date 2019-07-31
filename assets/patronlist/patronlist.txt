@@ -18,7 +18,6 @@ PutPut
 VRC Ruby Rose
 Valkeir
 A.
-Celeste
 Aev
 Kuruu
 TheGoo
