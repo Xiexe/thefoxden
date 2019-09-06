@@ -21,7 +21,6 @@ A.
 AltAccount
 Aev
 Kuruu
-TheGoo
 Nacho Replay
 PhaxeNor
 Sarah Victoria
