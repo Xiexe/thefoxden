@@ -4,7 +4,6 @@ CrusaderArts
 anima
 Q
 Lyuma
-Syaro
 Nono
 Markenergie
 Tupper
@@ -19,6 +18,7 @@ J4KEY
 PutPut
 Frisky
 !SadBitch
+Yukio
 Puppykana
 Gigabits
 Valkeir
@@ -34,4 +34,3 @@ Hakanai
 Xiexe
 Balion
 WinterZ
-Yukio
