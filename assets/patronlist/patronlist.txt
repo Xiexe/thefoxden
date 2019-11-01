@@ -1,7 +1,6 @@
 lf_yt
 Tierson
 moonwiz
-CrusaderArts
 anima
 Q
 Lyuma
@@ -30,7 +29,6 @@ AltAccount
 Aev
 Kuruu
 Nacho Replay
-PhaxeNor
 Hakanai
 Xiexe
 Balion
