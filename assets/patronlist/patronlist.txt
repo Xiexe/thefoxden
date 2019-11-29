@@ -1,10 +1,8 @@
-BabyYoda
-Xiexe
-CrusaderArts
 MrBalrog
 lf_yt
 Tierson
 moonwiz
+CrusaderArts
 anima
 Draken Stark
 Q
@@ -23,6 +21,7 @@ Tyrenas™    ☑
 PutPut
 BloodGallade
 Frisky
+BabyYoda
 Puppykana
 Gigabits
 DrPotato
@@ -38,5 +37,6 @@ Kuruu
 Nacho Replay
 Gahnik
 Hakanai
+Xiexe
 Balion
 WinterZ
