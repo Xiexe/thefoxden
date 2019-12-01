@@ -41,3 +41,4 @@ Hakanai
 Balion
 WinterZ
 Shiju
+Sugar
