@@ -27,7 +27,6 @@ Puppykana
 Gigabits
 DrPotato
 Alekso
-Cassandra
 Valkeir
 arcane
 Double Dream Hands
@@ -42,3 +41,4 @@ Balion
 WinterZ
 Shiju
 Sugar
+Cassandra
