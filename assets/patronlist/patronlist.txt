@@ -38,6 +38,5 @@ Gahnik
 Hakanai
 Balion
 WinterZ
-Shiju
 Sugar
 Cassandra
