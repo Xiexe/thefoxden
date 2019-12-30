@@ -33,7 +33,6 @@ Wvyshe
 DrPotato
 OldManSquid
 Alekso
-1
 Cassandra
 Valkeir
 arcane
