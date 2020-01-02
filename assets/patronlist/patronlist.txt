@@ -4,7 +4,6 @@ Tierson
 ImLeXz
 Hidd3nKnight
 CrusaderArts
-anima
 Draken Stark
 Q
 Lyuma
@@ -28,7 +27,6 @@ BabyYoda
 Puppykana
 Gigabits
 Wvyshe
-DrPotato
 OldManSquid
 Alekso
 Cassandra
@@ -49,4 +47,3 @@ Xiexe
 Balion
 WinterZ
 Rad
-mcphersonsound
