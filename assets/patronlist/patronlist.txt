@@ -15,6 +15,7 @@ Mimi
 Tupper
 Thirium
 ElTaco
+poiyomi
 nnaあぁ
 CyberneticFool
 PKL
@@ -25,7 +26,6 @@ PutPut
 BloodGallade
 Frisky
 BabyYoda
-Yukio
 Puppykana
 Gigabits
 WiFiPunk
@@ -56,3 +56,4 @@ walllable
 Hardes
 MMMaellon
 TimeWarping
+univeri
