@@ -43,7 +43,6 @@ Puppykana
 univeri
 Gigabits
 WiFiPunk
-Wvyshe
 DrPotato
 OldManSquid
 TimeWarping
