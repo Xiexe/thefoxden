@@ -53,9 +53,7 @@ orels1
 K.
 Beb
 AltAccount
-Natek
 Aev
-PuppyTheHusky
 ZombiDev
 ihatemondays
 Shinter
@@ -65,10 +63,10 @@ SplitScream
 Hardes
 Gahnik
 Hakanai
-Wigma
 Xiexe
 Balion
 WinterZ
 Lethalshot66
 Rad
 J4KEY
+mcphersonsound
