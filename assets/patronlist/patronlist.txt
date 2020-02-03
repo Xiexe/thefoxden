@@ -1,4 +1,3 @@
-MrBalrog
 M.O.O.N
 lf_yt
 Tierson
@@ -9,7 +8,6 @@ Syrr
 CrusaderArts
 anima
 Draken Stark
-TopNotch
 bd_
 PlayingBadly
 lumberjack
@@ -42,7 +40,6 @@ BabyYoda
 Puppykana
 univeri
 Gigabits
-WiFiPunk
 DrPotato
 OldManSquid
 TimeWarping
