@@ -53,6 +53,7 @@ OldManSquid
 yui
 _Direkt
 TimeWarping
+Ronda
 VR Ruby Rose
 Valkeir
 orels1
@@ -69,7 +70,6 @@ Manga101
 Shinter
 Kuruu
 Nacho Replay
-Omega
 SplitScream
 Gahnik
 Hakanai
@@ -79,6 +79,7 @@ WinterZ
 Lethalshot66
 Rad
 Sapler
+ビーストⅢ／L
 DαωהShαdoω
 owlboy
 JScott
