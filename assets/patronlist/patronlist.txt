@@ -4,6 +4,7 @@ lf_yt
 Tierson
 RUMA
 moonwiz
+Rosmic
 Hidd3nKnight
 Syrr
 CrusaderArts
@@ -15,6 +16,7 @@ bd_
 PlayingBadly
 lumberjack
 WACOMalt
+owlboy
 Lyuma
 PC
 RED_SIM
@@ -25,6 +27,7 @@ Markenergie
 Mimi
 0HollowIchigo
 Tupper
+Jordo
 Thirium
 mcphersonsound
 ElTaco
@@ -46,10 +49,13 @@ Frisky
 Puppykana
 univeri
 Gigabits
+Sapler
+DawnShadow
 FireWing
 WiFiPunk
 DrPotato
 Thanos
+ChevronSeven
 OldManSquid
 yui
 _Direkt
@@ -68,20 +74,18 @@ Aev
 ZombiDev
 ihatemondays
 Manga101
+cubedparadox
 Shinter
 Kuruu
 Nacho Replay
 SplitScream
+Kosyne
 Gahnik
 Hakanai
+JScott
 Wigma
 Xiexe
+ビーストⅢ／L
 WinterZ
 Lethalshot66
 Rad
-Sapler
-ビーストⅢ／L
-DawnShadow
-owlboy
-JScott
-Kosyne
