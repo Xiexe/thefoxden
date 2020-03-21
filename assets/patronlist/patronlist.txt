@@ -13,7 +13,6 @@ anima
 Proxy
 Draken Stark
 bd_
-PlayingBadly
 lumberjack
 WACOMalt
 owlboy
