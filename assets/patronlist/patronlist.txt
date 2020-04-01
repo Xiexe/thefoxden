@@ -19,11 +19,9 @@ Lyuma
 PC
 RED_SIM
 Tony_Lewis
-Atlas
 Nono
 Markenergie
 Mimi
-0HollowIchigo
 Tupper
 Jordo
 Thirium
@@ -77,7 +75,7 @@ Kosyne
 Gahnik
 Hakanai
 JScott
-Wigma
+K4SS
 Xiexe
 Nyammi
 WinterZ
