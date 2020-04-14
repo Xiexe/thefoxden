@@ -50,7 +50,6 @@ Thanos
 ChevronSeven
 OldManSquid
 yui
-_Direkt
 TimeWarping
 Ronda
 VR Ruby Rose
