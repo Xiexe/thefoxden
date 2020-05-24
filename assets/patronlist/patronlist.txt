@@ -17,6 +17,7 @@ owlboy
 Lyuma
 PC
 RED_SIM
+FutaElf
 Tony_Lewis
 Ruuubick
 Nono
@@ -83,3 +84,4 @@ Lethalshot66
 Alex✨
 Rad
 Kura
+SkyAtlas
