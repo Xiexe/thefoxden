@@ -48,7 +48,6 @@ OldManSquid
 Alease
 yui
 TimeWarping
-Ronda
 VR Ruby Rose
 poly
 Valkeir
