@@ -80,3 +80,4 @@ Rad
 Kura
 SkyAtlas
 ElTaco
+sinhasu
