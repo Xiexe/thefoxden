@@ -3,7 +3,6 @@ lf_yt
 Tierson
 RUMA
 Lucien
-Lunatrish
 Rosmic
 CrusaderArts
 Silver_Moon
@@ -68,6 +67,7 @@ Shinter
 Mochie
 Nacho Replay
 okano cat
+Nepsy
 Madvicius
 Gahnik
 Hakanai
