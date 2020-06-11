@@ -9,6 +9,7 @@ Silver_Moon
 anima
 Proxy
 Draken Stark
+sinhasu
 bd_
 WACOMalt
 owlboy
@@ -24,11 +25,14 @@ Mimi
 Tupper
 Jordo
 Thirium
+ElTaco
 nnaあぁ
+SkyAtlas
 PKL
 Lillium Eclair
 GenericPhoenix
 Tyrenas
+Jate'kara
 VincentJones
 Centauri
 Techa
@@ -79,7 +83,3 @@ Lethalshot66
 Alex✨
 Rad
 Kura
-Jate'kara
-SkyAtlas
-ElTaco
-sinhasu
