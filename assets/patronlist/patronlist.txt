@@ -4,6 +4,7 @@ Tierson
 RUMA
 Lucien
 Rosmic
+Tap-Chan
 CrusaderArts
 Silver_Moon
 Proxy
@@ -47,7 +48,6 @@ DrPotato
 Thanos
 ChevronSeven
 OldManSquid
-Alease
 yui
 TimeWarping
 VR Ruby Rose
@@ -82,4 +82,3 @@ Lethalshot66
 Alex✨
 Rad
 Kura
-Tap-Chan
