@@ -1,6 +1,5 @@
 lf_yt
 Tierson
-RUMA
 Lucien
 Rosmic
 Tap-Chan
@@ -22,7 +21,6 @@ Tony_Lewis
 Ruuubick
 Nono
 Mimi
-0HollowIchigo
 Tupper
 Jordo
 Thirium
@@ -53,7 +51,6 @@ Alease
 yui
 TimeWarping
 Ronda
-VR Ruby Rose
 poly
 Valkeir
 Tapioca-Senpai
