@@ -38,6 +38,7 @@ VincentJones
 Centauri
 Techa
 bote
+J4KEY
 PutPut
 BloodGallade
 Yuni
@@ -88,3 +89,4 @@ WinterZ
 Lethalshot66
 Alex឵឵
 Rad
+Blu_Haze
