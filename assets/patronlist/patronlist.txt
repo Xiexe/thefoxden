@@ -2,6 +2,7 @@ Xiexe
 CrusaderArts
 lf_yt
 Tierson
+RUMA
 Lucien
 Rosmic
 Tap-Chan
@@ -43,6 +44,7 @@ CutestHypnotist
 Frisky
 Puppykana
 Sapler
+WiFiPunk
 DrPotato
 Thanos
 eN7ity
@@ -85,3 +87,4 @@ Atlas
 Vizi
 Takato Matsuki
 GrumpNugget
+Krantu
