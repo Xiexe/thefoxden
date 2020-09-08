@@ -1,5 +1,6 @@
 Xiexe
 CrusaderArts
+MrBalrog
 lf_yt
 Tierson
 ImLeXz
@@ -57,6 +58,7 @@ Rivem
 yui
 TimeWarping
 poly
+Flave
 Valkeir
 Tapioca-Senpai
 orels1
@@ -89,3 +91,4 @@ Vizi
 Takato Matsuki
 GrumpNugget
 Krantu
+Hobbert
