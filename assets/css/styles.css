@@ -1,120 +1,105 @@
-
-body {
-  background: #31303a;
+html, body { overflow: -moz-scrollbars-none; margin: 0; height: 100%; }
+.canvasRect 
+{
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+.buttonBar
+{
+    position: absolute;
+    pointer-events:none;
+}
+.button 
+{
+    pointer-events:all;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 8px 8px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.smallButton
+{
+    pointer-events:all;
+    border: none;
+    border-radius: 25%;
+    outline: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 8px 8px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.optionButton
+{
+    background-color: #2C2F33; 
+    color: white;
+}
+.optionButton:hover
+{
+    border-radius: 20%;
+    transform: scale(1.05);
+    background-color: #373a3f;
+    color: white;
+}
+.optionButton:active
+{
+    transform: scale(0.95);
+    background-color: #373a3f;
+    color: white;
+}
+.resetcanvas 
+{
+    border-radius: 15px;
+    background-color: #2C2F33; 
+    color: white;
+}
+.resetcanvas:hover 
+{
+    transform: scale(1.025);
+    border-radius: 10px;
+    background-color: #373a3f;
+    color: white;
+}
+.resetcanvas:active
+{
+    transform: scale(0.95);
+    border-radius: 15px;
+    background-color: #40444b;
+    color: white;
 }
 
-@font-face {
-  font-family: "AlteHaas";
-  src: url("../fonts/AtleHaas/AlteHaasGroteskRegular.ttf");
+.buttonselected
+{
+    background-color: #4f5663;
 }
 
-video{
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-
-
-}
-.videoContainer{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 120%;
-  width: auto;
-  height: auto;
-  overflow: hidden;
+.hide-scrollbar
+{
+    overflow: auto;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none; /* Firefox 64 */
 }
 
-.mainbox{
-  position: absolute;
-  top: 100%;
-  left: 25%;
-  width:70%;
-	height:800px;
-	margin:10px;
-  padding:10px;
-  background:white;
-  border-radius: 8px;
-}
-
-
-.menuSelectText{
-  position: relative;
-  transform: translate(100px,-60px);
-}
-
-.menubg{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 90%, #31303a);
-  overflow: hidden;
-  
-}
-.overlay {
-  position: relative;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-
-.unselectable{
--webkit-user-select:none;
--khtml-user-select:none;
--moz-user-select:none;
--ms-user-select:none;
--o-user-select:none;
-user-select:none;
-}
-
-.btn-vertical{
-  position: absolute;
-  left: 10%;
-  top: 50%;
-  display: block;
-
-}
-
-.menutext{
-  position: absolute;
-  color: white;
-  left: 40px;
-  top: -10px;
-  font-family: "AlteHaas";
-  transform: scale(2);
-}
-
-.navbutton{
-  position: relative;
-  left: 0px;
-  width:150px;
-	height:30px;
-	margin:0px;
-  padding:0px;
-  font-family: "AlteHaas";
-  color: white;
-  transform: translate(0,0);
-  transition: .3s;
-  z-index: 2;
-}
-
-.navbutton:hover{
-  left: 60px;
+.noselect 
+{
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
 }

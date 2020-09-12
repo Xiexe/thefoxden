@@ -1,77 +1,25 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-
-  <title>The Fox Den</title>
-  <link rel="icon" type="image/png" href="assets/images/logotransparent.png" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" type="text/css" href="assets\css\materialize.css">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  <link rel="stylesheet" href="assets\css\styles.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
-</head>
-
-<body>
-
-
-  </header>
-
-  <main>
-
-      <!--Header title bar-->
-      <div class="container valign-wrapper">
-        <div class="videoContainer">
-          <video poster="assets/images/foxden2.png" autoplay loop muted>
-            <source src="assets/video/foxdenLoop.mp4" type=video/mp4>
-            <source src="assets/video/foxdenidle.webm" type=video/webm>
-          </video>
-          <div class = "menubg">
-
-          </div>
-       </div>
-      </div>
-      
-      <div class="navselect"></div>
-      <!--menuSelection-->
-      <div class="unselectable">
-      <div class = "btn-vertical">
-         
-            <div class="navbutton">
-              <!--<div class="menutext">
-                  <p>Portfolio</p>
-              </div>-->
+<html>
+    <head>
+        <meta charset=utf-8 />
+        <title>Test .</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="assets/js/sketch.js" type="text/javascript"></script>
+    </head>
+    <body onload="drawCanvas();">
+        <div class="hide-scrollbar">
+            <div class="noselect">
+                <div class="buttonBar">
+                    <button class="button resetcanvas" onclick="resetCanvas(); playButtonSound();">Clear</button>
+                    <button class="smallButton optionButton" onclick="selectTool(0); playButtonSound();"><img src="assets/img/pencil.png" style="width: 32px;"></img></button>
+                    <button class="smallButton optionButton" onclick="selectTool(1); playButtonSound();"><img src="assets/img/eraser.png" style="width: 32px;"></img></button>
+                    <button class="smallButton optionButton" onclick="setSize(0); playButtonSound();"><img src="assets/img/linethin.png" style="width: 32px;"></img></button>
+                    <button class="smallButton optionButton" onclick="setSize(1); playButtonSound();"><img src="assets/img/linelarge.png" style="width: 32px;"></img></button>
+                </div>
             </div>
-
-
-            <div class="navbutton">
-              
+            <div class="canvasRect">
+                <canvas id="canvas"></canvas>
             </div>
-
-            <div class="navbutton">
-                
-          </div>
-      </div> 
-    </div>
-
-
-
-
-        <!--Portfolio-->
-        <div class="mainbox">
-
-          </div>
-
-    <!-- compiled and min javascript -->
-    <script type="text/javascript" src="assets\js\jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="assets\js\materialize.min.js"></script>
-    <script src="assets\js\init.js"></script>
-</body>
-
+        </div>
+    </body>
 </html>
