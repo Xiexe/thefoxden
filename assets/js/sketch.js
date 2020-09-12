@@ -127,6 +127,9 @@ function drawCanvas()
         canvas.addEventListener('mousedown', function(e) { isDrawing = true; sketchStart(canvas, e); })
         canvas.addEventListener('mouseup', function(e){ isDrawing = false; drawingSound.pause(); drawingSound.currentTime = 0; })
         canvas.addEventListener('mousemove', function(e){ sketch(canvas, e); });
+        canvas.addEventListener('touchstart', function(e) { isDrawing = true; sketchStart(canvas, e); })
+        canvas.addEventListener('touchend', function(e){ isDrawing = false; drawingSound.pause(); drawingSound.currentTime = 0; })
+        canvas.addEventListener('touchmove', function(e){ sketch(canvas, e); })
         initialized = true;
         resetCanvas();
         setSize(0);
