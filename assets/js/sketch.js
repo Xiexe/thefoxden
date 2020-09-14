@@ -1,4 +1,3 @@
-
 const resetSound = new Audio('./assets/sound/reset.ogg');
 const drawingSound = new Audio('./assets/sound/drawloop.ogg');
 
