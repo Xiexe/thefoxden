@@ -10,6 +10,7 @@ var strokeWidth = 6;
 var strokeColor = 'white';
 var eraserButton;
 var pencilButton;
+var tinyStrokeButton;
 var thinStrokeButton;
 var thickStrokeButton;
 var selectedButton;
@@ -27,6 +28,7 @@ function resetCanvas()
     var canvas = document.getElementById('canvas');
     eraserButton = document.getElementById('eraser');
     pencilButton = document.getElementById('pencil');
+    tinyStrokeButton = document.getElementById('tinystroke');
     thinStrokeButton = document.getElementById('thinstroke');
     thickStrokeButton = document.getElementById('largestroke');
     selectedButton = document.getElementById('selected-colors');
@@ -60,16 +62,26 @@ function setSize(size)
 {
     if(size === 0)
     {
+        tinyStrokeButton.style.backgroundColor = window.getComputedStyle(selectedButton).getPropertyValue('background-color');
+        thinStrokeButton.style.backgroundColor = inactiveButton.style.backgroundColor;
+        thickStrokeButton.style.backgroundColor = inactiveButton.style.backgroundColor;
+        strokeWidth = 3;
+    }
+
+    if(size === 1)
+    {
+        tinyStrokeButton.style.backgroundColor = inactiveButton.style.backgroundColor;
         thinStrokeButton.style.backgroundColor = window.getComputedStyle(selectedButton).getPropertyValue('background-color');
         thickStrokeButton.style.backgroundColor = inactiveButton.style.backgroundColor;
         strokeWidth = 6;
     }
 
-    if(size === 1)
+    if(size === 2)
     {
+        tinyStrokeButton.style.backgroundColor = inactiveButton.style.backgroundColor;
         thinStrokeButton.style.backgroundColor = inactiveButton.style.backgroundColor;
         thickStrokeButton.style.backgroundColor = window.getComputedStyle(selectedButton).getPropertyValue('background-color');
-        strokeWidth = 16;
+        strokeWidth = 12;
     }
 }
 
@@ -126,12 +138,10 @@ function drawCanvas()
         canvas.addEventListener('mousedown', function(e) { isDrawing = true; sketchStart(canvas, e); })
         canvas.addEventListener('mouseup', function(e){ isDrawing = false; drawingSound.pause(); drawingSound.currentTime = 0; })
         canvas.addEventListener('mousemove', function(e){ sketch(canvas, e); });
-        canvas.addEventListener('touchstart', function(e) { isDrawing = true; sketchStart(canvas, e); })
-        canvas.addEventListener('touchend', function(e){ isDrawing = false; drawingSound.pause(); drawingSound.currentTime = 0; })
-        canvas.addEventListener('touchmove', function(e){ sketch(canvas, e); })
+        canvas.addEventListener('mouseout', function(e){ isDrawing = false; drawingSound.pause(); drawingSound.currentTime = 0; });
         initialized = true;
         resetCanvas();
-        setSize(0);
+        setSize(1);
         selectTool(0);
     }
 }
