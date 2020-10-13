@@ -64,7 +64,6 @@ TimeWarping
 1
 poly
 RainyDays
-Valkeir
 Tapioca-Senpai
 orels1
 Lit
