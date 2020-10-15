@@ -3,7 +3,6 @@ Tier
 ImLeXz
 RUMA
 Lucien
-Rosmic
 DanzenKen
 Tap-Chan
 CrusaderArts
@@ -27,6 +26,7 @@ Atlas
 Nono
 azami
 Mimi
+0HollowIchigo
 Tupper
 Jordo
 Thirium
