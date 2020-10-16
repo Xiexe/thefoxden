@@ -62,6 +62,7 @@ Rivem
 yui
 TimeWarping
 1
+VR Ruby Rose
 poly
 RainyDays
 Tapioca-Senpai
