@@ -21,7 +21,6 @@ PC
 RED_SIM
 Hellscape
 Tony_Lewis
-Ruuubick
 Atlas
 Nono
 azami
