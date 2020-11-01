@@ -25,7 +25,6 @@ Atlas
 Nono
 azami
 Mimi
-0HollowIchigo
 Tupper
 Jordo
 Thirium
@@ -101,3 +100,4 @@ Macil
 locustlab
 Zanven
 TaintedSponge
+Rosmic
